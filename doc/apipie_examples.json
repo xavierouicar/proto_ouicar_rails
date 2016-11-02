@@ -2,7 +2,7 @@
   "cars#create": [
     {
       "verb": "POST",
-      "path": "/users/349/cars",
+      "path": "/users/480/cars",
       "versions": [
         "1.0"
       ],
@@ -21,7 +21,7 @@
     },
     {
       "verb": "POST",
-      "path": "/users/350/cars",
+      "path": "/users/481/cars",
       "versions": [
         "1.0"
       ],
@@ -39,14 +39,14 @@
         ]
       },
       "code": "422",
-      "show_in_doc": 0,
+      "show_in_doc": 1,
       "recorded": true
     }
   ],
   "cars#destroy": [
     {
       "verb": "DELETE",
-      "path": "/users/353/cars/334",
+      "path": "/users/484/cars/439",
       "versions": [
         "1.0"
       ],
@@ -61,7 +61,7 @@
   "cars#index": [
     {
       "verb": "GET",
-      "path": "/users/347/cars",
+      "path": "/users/478/cars",
       "versions": [
         "1.0"
       ],
@@ -76,7 +76,7 @@
   "cars#show": [
     {
       "verb": "GET",
-      "path": "/users/348/cars/330",
+      "path": "/users/479/cars/435",
       "versions": [
         "1.0"
       ],
@@ -91,7 +91,26 @@
   "cars#update": [
     {
       "verb": "PUT",
-      "path": "/users/352/cars/333",
+      "path": "/users/482/cars/437",
+      "versions": [
+        "1.0"
+      ],
+      "query": null,
+      "request_data": {
+        "car": {
+          "brand": "PEUGEOT",
+          "model": "305",
+          "registration": "TR646RT"
+        }
+      },
+      "response_data": null,
+      "code": "200",
+      "show_in_doc": 1,
+      "recorded": true
+    },
+    {
+      "verb": "PUT",
+      "path": "/users/483/cars/438",
       "versions": [
         "1.0"
       ],
