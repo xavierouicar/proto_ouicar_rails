@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe CarsController, type: :controller do
+  render_views
   # This should return the minimal set of attributes required to create a valid
   # Car. As you add validations to Car, be sure to
   # adjust the attributes here as well.

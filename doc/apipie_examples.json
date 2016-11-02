@@ -1,8 +1,9 @@
 {
   "cars#create": [
     {
+      "title": "creation",
       "verb": "POST",
-      "path": "/users/480/cars",
+      "path": "/users/599/cars",
       "versions": [
         "1.0"
       ],
@@ -14,14 +15,23 @@
           "registration": "TR646RT"
         }
       },
-      "response_data": null,
+      "response_data": {
+        "id": 533,
+        "registration": "TR646RT",
+        "user_id": 599,
+        "model": "305",
+        "brand": "PEUGEOT",
+        "created_at": "2016-11-02T17:40:31.347Z",
+        "updated_at": "2016-11-02T17:40:31.347Z"
+      },
       "code": "201",
       "show_in_doc": 1,
       "recorded": true
     },
     {
+      "title": "creation",
       "verb": "POST",
-      "path": "/users/481/cars",
+      "path": "/users/600/cars",
       "versions": [
         "1.0"
       ],
@@ -46,7 +56,7 @@
   "cars#destroy": [
     {
       "verb": "DELETE",
-      "path": "/users/484/cars/439",
+      "path": "/users/603/cars/536",
       "versions": [
         "1.0"
       ],
@@ -61,13 +71,23 @@
   "cars#index": [
     {
       "verb": "GET",
-      "path": "/users/478/cars",
+      "path": "/users/597/cars",
       "versions": [
         "1.0"
       ],
       "query": "",
       "request_data": null,
-      "response_data": null,
+      "response_data": [
+        {
+          "id": 531,
+          "registration": "AZ123AZ",
+          "user_id": 597,
+          "model": "Sandcrawler",
+          "brand": null,
+          "created_at": "2016-11-02T17:40:31.055Z",
+          "updated_at": "2016-11-02T17:40:31.055Z"
+        }
+      ],
       "code": "200",
       "show_in_doc": 1,
       "recorded": true
@@ -76,13 +96,21 @@
   "cars#show": [
     {
       "verb": "GET",
-      "path": "/users/479/cars/435",
+      "path": "/users/598/cars/532",
       "versions": [
         "1.0"
       ],
       "query": "",
       "request_data": null,
-      "response_data": null,
+      "response_data": {
+        "id": 532,
+        "registration": "AZ123AZ",
+        "user_id": 598,
+        "model": "Sandcrawler",
+        "brand": null,
+        "created_at": "2016-11-02T17:40:31.183Z",
+        "updated_at": "2016-11-02T17:40:31.183Z"
+      },
       "code": "200",
       "show_in_doc": 1,
       "recorded": true
@@ -91,7 +119,7 @@
   "cars#update": [
     {
       "verb": "PUT",
-      "path": "/users/482/cars/437",
+      "path": "/users/601/cars/534",
       "versions": [
         "1.0"
       ],
@@ -103,14 +131,22 @@
           "registration": "TR646RT"
         }
       },
-      "response_data": null,
+      "response_data": {
+        "id": 534,
+        "registration": "TR646RT",
+        "user_id": 601,
+        "model": "305",
+        "brand": "PEUGEOT",
+        "created_at": "2016-11-02T17:40:31.433Z",
+        "updated_at": "2016-11-02T17:40:31.507Z"
+      },
       "code": "200",
       "show_in_doc": 1,
       "recorded": true
     },
     {
       "verb": "PUT",
-      "path": "/users/483/cars/438",
+      "path": "/users/602/cars/535",
       "versions": [
         "1.0"
       ],
