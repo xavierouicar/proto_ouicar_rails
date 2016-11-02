@@ -3,7 +3,7 @@ class CarsController < ApiController
   before_action :set_car, only: [:show, :update, :destroy]
   before_action :set_cars, only: [:index]
 
-  api :GET, '/user/:user_id/cars', 'Create a new :car belonging to the :user'
+  api :GET, '/user/:user_id/cars', 'Get all cars belonging to the :user'
   param :user_id, String, 'Id of the :user', required: true
   def index
   end

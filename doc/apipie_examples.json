@@ -1,0 +1,116 @@
+{
+  "cars#create": [
+    {
+      "verb": "POST",
+      "path": "/users/349/cars",
+      "versions": [
+        "1.0"
+      ],
+      "query": null,
+      "request_data": {
+        "car": {
+          "brand": "PEUGEOT",
+          "model": "305",
+          "registration": "TR646RT"
+        }
+      },
+      "response_data": null,
+      "code": "201",
+      "show_in_doc": 1,
+      "recorded": true
+    },
+    {
+      "verb": "POST",
+      "path": "/users/350/cars",
+      "versions": [
+        "1.0"
+      ],
+      "query": null,
+      "request_data": {
+        "car": {
+          "brand": "PEUGEOT",
+          "model": "305",
+          "registration": "abcdef"
+        }
+      },
+      "response_data": {
+        "registration": [
+          "is invalid"
+        ]
+      },
+      "code": "422",
+      "show_in_doc": 0,
+      "recorded": true
+    }
+  ],
+  "cars#destroy": [
+    {
+      "verb": "DELETE",
+      "path": "/users/353/cars/334",
+      "versions": [
+        "1.0"
+      ],
+      "query": "",
+      "request_data": null,
+      "response_data": null,
+      "code": "204",
+      "show_in_doc": 1,
+      "recorded": true
+    }
+  ],
+  "cars#index": [
+    {
+      "verb": "GET",
+      "path": "/users/347/cars",
+      "versions": [
+        "1.0"
+      ],
+      "query": "",
+      "request_data": null,
+      "response_data": null,
+      "code": "200",
+      "show_in_doc": 1,
+      "recorded": true
+    }
+  ],
+  "cars#show": [
+    {
+      "verb": "GET",
+      "path": "/users/348/cars/330",
+      "versions": [
+        "1.0"
+      ],
+      "query": "",
+      "request_data": null,
+      "response_data": null,
+      "code": "200",
+      "show_in_doc": 1,
+      "recorded": true
+    }
+  ],
+  "cars#update": [
+    {
+      "verb": "PUT",
+      "path": "/users/352/cars/333",
+      "versions": [
+        "1.0"
+      ],
+      "query": null,
+      "request_data": {
+        "car": {
+          "brand": "PEUGEOT",
+          "model": "305",
+          "registration": "abcdef"
+        }
+      },
+      "response_data": {
+        "registration": [
+          "is invalid"
+        ]
+      },
+      "code": "422",
+      "show_in_doc": 1,
+      "recorded": true
+    }
+  ]
+}
