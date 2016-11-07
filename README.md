@@ -8,7 +8,7 @@ To run the application please follow the instructions below :
 
 * In a terminal, go to the repository folder and launch `bundle install`
 
-* Launch `rails s`to launch the server
+* Launch `rails s` to start the server
 
 * Visit localhost:3000 to see the website
 
