@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run the application please follow the instructions below :
 
-Things you may want to cover:
+* Install ruby on your machine
 
-* Ruby version
+* Clone this repository
 
-* System dependencies
+* In a terminal, go to the repository folder and launch `bundle install`
 
-* Configuration
+* Launch `rails s`to launch the server
 
-* Database creation
+* Visit localhost:3000 to see the website
 
-* Database initialization
+* Admin : localhost:3000/admin
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Api documentation : localhost:3000/apipie
